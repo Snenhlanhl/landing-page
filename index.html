@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>w2finalProject</title>
+    <style>
+        body{
+            background-color: rgb(61, 45, 45);
+        }
+       h1 {
+        text-align: center;
+        color:white;
+        font-weight: bold;
+        font-size:40px;
+       }
+       h {
+        text-align: center;
+        display: block;
+        color:antiquewhite;
+        font-weight: 900;
+        font-size:30px;
+        border: 0;
+        padding:30px;
+        border-radius:8px;
+        margin: 30px auto;
+       }
+       .hiker {
+        display: block;
+        margin: 0 auto;
+        max-width: 90%;
+        border-radius: 10px;
+        text-align: center;
+        min-width: 30%;
+        left: 20%;
+        top:20%;
+        
+       }
+       .hike {
+        display:block;
+        margin: 0 auto;
+        width:30%;
+        border-radius: 10px;
+        text-align: left;
+        
+        left:20%;
+        top: 20%;
+    }
+    .waterfall { 
+        display: block;
+        margin:0 auto;
+        width: 40%;
+        border-radius:10px;
+        text-align: center;
+        left:20%;
+        top:20%;
+    }
+    p1 {
+        font-size:20px;
+        line-height: 1.5;
+        text-align: center;
+        display: block;
+        font-family: monospace;
+        white-space:pre;
+        color: antiquewhite;
+    }
+    div {
+        text-align: center;
+        display: block;
+        font-size: 20px;
+    }
+    button {
+        padding: 15px 20px;
+        color:#885df1 ;
+        display: block;
+        text-decoration: none;
+        font-size: 16px;
+        border-radius: 40px;
+        margin:30px auto;
+        border: 2px solid;
+        background-color:#fff;
+        box-shadow: 5px 5px 10px rgba(0, 0,0,3) ;
+
+    }
+    button:hover {
+        color: #fff;
+        background: #7045df;
+    }
+    p2 {
+        text-align: center;
+        display: block;
+        color:antiquewhite;
+    }
+    a {
+        color:rgb(69, 161, 236);
+    }
+
+    </style>
+</head>
+<body>
+    <h1>
+        Hiking Trails
+    </h1>
+    <h>
+        The most beautiful hiking trails in South Africa
+    </h>
+    <img class ="waterfall"
+    src=" https://th.bing.com/th/id/OIP.8njPCq6chPJwKpA3tKCJxQHaFj?pid=ImgDet&rs=1 "
+    alt=" waterfall hiking"
+    width="200"
+ />
+ 
+ </div>
+</div>
+ <br/>
+   <uli>
+    <li>
+  <p1>
+    South Africa is a land of diverse landscapes,
+    varied climates and abundant flora and fauna.
+    With so many natural wonders to be seen
+    and vast wild terrain to explore, South Africa is 
+    certainly a hikers dream.
+    Whether you are just starting out or have been an 
+    avid hiker for many years,South Africa offers an abundance of
+    opportunities to suit all types.
+    What better way could there be to become 
+    acquainted with this magnificent 
+    country's wilderness areas and natural heritage.
+
+       </p1>
+     </li>
+     </uli>
+
+<div>
+<a href = " https://www.nature-reserve.co.za/nature-reserves-mountains-hikes.html "
+target = "-blank">
+learn more <nature-reserve>
+</a>
+</div>
+<br/>
+<button>
+    Book your tickets
+</button>
+<br/><br/>
+
+<p2>
+ This page was built by Sinenhlanhla
+</p2>
+<body></body>
+</body>
+<script>  
+function book() {
+    let name  = prompt(" What is your name?");
+    let email = prompt ( "what is your email address?");
+    alert (
+        "Thank you " +  name  + " we'll be in touch by email, meanwhile have a look at our fantastic activities!"
+    )
+
+}
+
+      let bookButton = document.querySelector ("button");
+  bookButton.addEventListener ("click", book);
+</script>  
+</body>
+</html>
